@@ -1,4 +1,4 @@
-birtday = input("Fødselsdag: ")
+birthday = input("Fødselsdag: ")
 print()
 values = [4,3,2,7,6,5,4,3,2,1]
 
@@ -13,5 +13,5 @@ def checksum(cpr_number):
 
 for control in range(0,9999):
     control = f"{control:04d}"
-    checksum(birtday+control)
+    checksum(birthday+control)
     
